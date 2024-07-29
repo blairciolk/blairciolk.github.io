@@ -1,46 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 /* Classes */
-.center{
+.center {
     text-align: center;
 }
 
 .content {
     margin-top: 7em;
     color: black;
-    padding-top: 60px; 
-    
+    padding-top: 60px;
+
 }
 
 .clock {
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
-    margin-top: 20px;
+
 }
 
 /* IDs */
 
-#titleDiv{
-    background-color: #084074;
+#titleDiv {
+    background-color: #104d86;
     color: white;
     padding: 10px 20px;
-    text-align: center; /* Center the content inside the top bar */
-    position: fixed; /* Keep the top bar fixed at the top */
+    text-align: center;
+    /* Center the content inside the top bar */
+    position: fixed;
+    /* Keep the top bar fixed at the top */
     top: 0;
     width: 100%;
     z-index: 1000;
 }
 
 #title {
-    color: #DD1321;
+    color: #65b2fa;
+}
+
+#information{
+    text-align: center;
+}
+
+#about {
+    text-align: center;
+    
 }
 
 
-html, body {
+
+ul{
+    margin-right: 2.5em;
+    word-spacing: 1em;
+}
+
+li {
+    display: inline;
+}
+
+li>a {
+    text-decoration: none;
+    color: grey;
+}
+
+
+html,
+body {
     margin: 0;
     padding: 0;
 }
 
-html{
-    background-color: #0A4D8C;
+html {
+    background-color: #0a588c;
     font-family: 'Nunito', sans-serif;
 }
