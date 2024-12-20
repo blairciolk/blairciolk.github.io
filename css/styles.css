@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+/* Classes */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+
+.flex-item-left {
+    padding: 10px;
+}
+
+.textBox{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+  }
+
+
+@media (max-width: 800px) {
+    .flex-container{
+        flex-direction: column;
+    }
+}
+
