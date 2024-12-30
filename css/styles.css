@@ -1,10 +1,53 @@
+/* Built-in */
 * {
     box-sizing: border-box;
 }
 
+html {
+    background-color: rgb(118, 178, 231);
+    font-family: 'Hanuman';
+}
+
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+
+/* ID's */
+#top-nav-bar {
+    margin-top: -0.55em;
+    margin-left: -.52em;
+    margin-right: -.52em;
+}
+
+#titleHeader {
+    text-align: center;
+    margin-top: -1em;
+    font-size: larger;
+}
 
 
 /* Classes */
+
+
+
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -17,7 +60,7 @@
 }
 
 .textBox{
-    text-align: center;
+    
     margin: auto;
     width: 50%;
     height: 100%;
